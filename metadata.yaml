@@ -18,8 +18,13 @@ versions:
 
 # Latest version
 
+  - sha: e1c85746763a7b74fe953401ba90c2756bc002f1
+    changeNotes: Rename template (.tpl) file
+
+# Previous versions
+
   - sha: 1a861e1962254bb852253c40511c896a727665c8
-    changeNotes: initial version
+    changeNotes: Initial Version
 
 # Initial version
 
