@@ -13,22 +13,45 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "AdSimple - Consent Manager for WordPress",
+  "displayName": "AdSimple Consent Manager",
   "brand": {
     "id": "AdSimple",
     "displayName": "AdSimple",
-    "thumbnail": "data:image/png;base64,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\u003d\u003d"
+    "thumbnail": "data:image/png;base64,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"
   },
-  "description": "Consent Mode GTM Template by AdSimple",
+  "description": "Google Consent Mode v2 for the AdSimple Consent Manager: sets the consent defaults per region, can load the Consent Manager script and forwards every consent decision to Google tags.",
   "containerContexts": [
     "WEB"
   ]
 }
 
-
 ___TEMPLATE_PARAMETERS___
 
 [
+  {
+    "type": "GROUP",
+    "name": "scriptGroup",
+    "displayName": "AdSimple Consent Manager script",
+    "groupStyle": "ZIPPY_OPEN",
+    "subParams": [
+      {
+        "type": "TEXT",
+        "name": "acmScriptUrl",
+        "displayName": "Embed URL of your Consent Manager (optional)",
+        "simpleValueType": true,
+        "canBeEmptyString": true,
+        "help": "Copy the address from the embed code in your AdSimple dashboard, e.g. https://www.cookie-manager.com/1/ab/0123456789abcdef0123456789abcdef.js. When filled, this tag loads the Consent Manager. Recommended is still to place the embed code as the first script in the <head> of your website: only then can it block other services before consent. Leave empty if the embed code is already on your website.",
+        "valueValidators": [
+          {
+            "type": "REGEX",
+            "args": [
+              "^(https://www\\.cookie-manager\\.com/[A-Za-z0-9/_-]+\\.js)?$"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   {
     "type": "GROUP",
     "name": "defaultSettingsgroup",
@@ -38,9 +61,25 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "CHECKBOX",
         "name": "isEU",
-        "checkboxText": "Show banner only in EEA, Switzerland and UK",
+        "checkboxText": "Apply the defaults only in the EEA, Switzerland and the UK",
         "simpleValueType": true,
-        "help": "When this box is checked your banner will only appear in countries within the EEA, Switzerland and the UK. When this box is unchecked, your banner will be shown worldwide. Google consent mode defaults will reflect this decision."
+        "help": "When checked, the default consent state applies to visitors from the EEA (EU, Iceland, Liechtenstein, Norway), Switzerland and the UK. Leave unchecked to apply it worldwide, or enter your own regions below."
+      },
+      {
+        "type": "TEXT",
+        "name": "regions",
+        "displayName": "Regions (optional)",
+        "simpleValueType": true,
+        "help": "Comma-separated ISO 3166-2 region codes, e.g. AT, DE, CH or US-CA. When filled, the default consent state applies only to these regions and overrides the checkbox above.",
+        "valueValidators": [
+          {
+            "type": "REGEX",
+            "args": [
+              "^\\s*([A-Za-z]{2}(-[A-Za-z0-9]{1,3})?)(\\s*,\\s*[A-Za-z]{2}(-[A-Za-z0-9]{1,3})?)*\\s*$"
+            ]
+          }
+        ],
+        "canBeEmptyString": true
       },
       {
         "type": "SELECT",
@@ -117,7 +156,6 @@ ___TEMPLATE_PARAMETERS___
   }
 ]
 
-
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const log = require('logToConsole');
@@ -128,6 +166,8 @@ const callInWindow = require('callInWindow');
 const gtagSet = require('gtagSet');
 const JSON = require('JSON');
 const fromBase64 = require('fromBase64');
+const injectScript = require('injectScript');
+const makeString = require('makeString');
 
 const COOKIE_NAME = 'acm_gtm_consent';
 const marketingCategories = ['ad_storage', 'ad_user_data', 'ad_personalization'];
@@ -135,7 +175,20 @@ const statisticsCategories = ['analytics_storage'];
 const defaultCategories = ['functionality_storage', 'security_storage'];
 const preferencesCategories = ['personalization_storage'];
 const allCategories = ['ad_storage', 'analytics_storage', 'functionality_storage', 'security_storage', 'personalization_storage', 'ad_user_data', 'ad_personalization'];
-const eeaRegions = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"];
+// EEA (EU, Iceland, Liechtenstein, Norway), Switzerland and the UK
+const eeaRegions = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "CH", "GB"];
+
+const parseRegions = (value) => {
+    const regions = [];
+    const parts = makeString(value || '').split(',');
+    for (let i = 0; i < parts.length; i++) {
+        const region = parts[i].trim().toUpperCase();
+        if (region) {
+            regions.push(region);
+        }
+    }
+    return regions;
+};
 
 log("ConsentModeV2", data);
 
@@ -248,7 +301,10 @@ const gtmInit = (data) => {
     // set default state
     let granted = defaultGrantedCategories();
     let defaultConsent = getConsentState(granted);
-    if (data.isEU) {
+    const customRegions = parseRegions(data.regions);
+    if (customRegions.length > 0) {
+      defaultConsent.region = customRegions;
+    } else if (data.isEU) {
       defaultConsent.region = eeaRegions;
     }
     //log('defaultconsent', defaultConsent);
@@ -270,7 +326,13 @@ const gtmInit = (data) => {
 };
 
 gtmInit(data);
-data.gtmOnSuccess();
+
+// Load the Consent Manager after the defaults are set, if the customer gave its embed URL.
+if (data.acmScriptUrl) {
+    injectScript(data.acmScriptUrl, data.gtmOnSuccess, data.gtmOnFailure, data.acmScriptUrl);
+} else {
+    data.gtmOnSuccess();
+}
 
 
 ___WEB_PERMISSIONS___
@@ -733,13 +795,79 @@ ___WEB_PERMISSIONS___
       "isEditedByUser": true
     },
     "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "inject_script",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "urls",
+          "value": {
+            "type": 2,
+            "listItem": [
+              {
+                "type": 1,
+                "string": "https://www.cookie-manager.com/*"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
   }
 ]
 
-
 ___TESTS___
 
-scenarios: []
+scenarios:
+- name: Default denied worldwide without region
+  code: |-
+    let defaults;
+    mock('setDefaultConsentState', (state) => { defaults = state; });
+    runCode({});
+    assertThat(defaults.ad_storage).isEqualTo('denied');
+    assertThat(defaults.analytics_storage).isEqualTo('denied');
+    assertThat(defaults.ad_user_data).isEqualTo('denied');
+    assertThat(defaults.ad_personalization).isEqualTo('denied');
+    assertThat(defaults.region).isUndefined();
+    assertApi('injectScript').wasNotCalled();
+    assertApi('gtmOnSuccess').wasCalled();
+- name: EEA checkbox covers EEA, Switzerland and the UK
+  code: |-
+    let defaults;
+    mock('setDefaultConsentState', (state) => { defaults = state; });
+    runCode({ isEU: true });
+    assertThat(defaults.region).contains('AT');
+    assertThat(defaults.region).contains('NO');
+    assertThat(defaults.region).contains('CH');
+    assertThat(defaults.region).contains('GB');
+- name: Own regions override the checkbox
+  code: |-
+    let defaults;
+    mock('setDefaultConsentState', (state) => { defaults = state; });
+    runCode({ isEU: true, regions: ' at, de ,us-ca' });
+    assertThat(defaults.region).isEqualTo(['AT', 'DE', 'US-CA']);
+- name: Loads the Consent Manager after the defaults when an embed URL is set
+  code: |-
+    const url = 'https://www.cookie-manager.com/1/ab/0123456789abcdef0123456789abcdef.js';
+    let defaultsSet = false;
+    let injectedAfterDefaults = false;
+    mock('setDefaultConsentState', () => { defaultsSet = true; });
+    mock('injectScript', (src, onSuccess) => { injectedAfterDefaults = defaultsSet && src === url; onSuccess(); });
+    runCode({ acmScriptUrl: url });
+    assertThat(injectedAfterDefaults).isTrue();
+    assertApi('gtmOnSuccess').wasCalled();
+- name: Sets the developer ID
+  code: |-
+    runCode({});
+    assertApi('gtagSet').wasCalledWith('developer_id.dZTNhMj', true);
 setup: ''
 
 
