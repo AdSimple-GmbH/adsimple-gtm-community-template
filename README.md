@@ -4,6 +4,15 @@ Welcome to the official repository for AdSimple's Google Tag Manager Template. T
 
 For direct implementation, you can download the template.tpl file from this repository and import it into your GTM container.
 
+## What the template does
+
+- Sets the Google Consent Mode v2 defaults (`ad_storage`, `analytics_storage`, `ad_user_data`, `ad_personalization`, `personalization_storage`) before other tags fire, worldwide or per region (EEA, Switzerland and the UK, or your own ISO 3166-2 codes).
+- Sets the AdSimple developer ID and, optionally, ads data redaction and URL passthrough.
+- Optionally loads the AdSimple Consent Manager script (enter the embed URL from your dashboard). Recommended is still the embed code as the first script in the `<head>` of your website: only then can it block other services before consent.
+- Forwards every consent decision of your visitors to Google (`update`), also the stored decision on later page views.
+
+Use the trigger **Consent Initialization – All Pages**. Documentation: https://www.adsimple.at/consent-mode-integration-adsimple-cmp/
+
 ## Template Customization
 
 The template can be customized after importing it into your GTM container.
