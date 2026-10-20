@@ -18,6 +18,11 @@ versions:
 
 # Latest version
 
+  - sha: dde0db334ce945c9e936abe454a9e06e34abec69
+    changeNotes: Loads the AdSimple Consent Manager script (optional embed URL), own regions, EEA list incl. IS, LI, NO, CH, GB, neutral name.
+
+# Previous versions
+
   - sha: e1c85746763a7b74fe953401ba90c2756bc002f1
     changeNotes: Rename template (.tpl) file
 
